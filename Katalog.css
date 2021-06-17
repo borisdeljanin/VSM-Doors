@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 1105px;
+  min-height: 1267px;
 }
 
 .u-section-1 .u-text-1 {
@@ -9,6 +9,7 @@
 .u-section-1 .u-btn-1 {
   background-image: none;
   border-style: solid;
+  align-self: center;
   margin: -79px auto 0 20px;
 }
 
@@ -17,10 +18,11 @@
 }
 
 .u-section-1 .u-gallery-1 {
-  height: 796px;
+  height: 1069px;
   grid-template-columns: auto auto auto;
   grid-gap: 17px 17px;
-  margin: 30px auto 60px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .u-section-1 .u-gallery-inner-1 {
@@ -96,9 +98,19 @@
   padding: 20px;
 }
 
+.u-section-1 .u-gallery-item-10 {
+  height: 570px;
+  margin: -496px auto 60px;
+}
+
+.u-section-1 .u-over-slide-10 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 965px;
+    min-height: 1079px;
   }
 
   .u-section-1 .u-text-1 {
@@ -111,32 +123,37 @@
   }
 
   .u-section-1 .u-gallery-1 {
-    height: 656px;
-    margin-right: initial;
-    margin-left: initial;
+    height: 881px;
+  }
+
+  .u-section-1 .u-gallery-item-10 {
+    width: 570px;
+    margin-top: -356px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1565px;
+    min-height: 1716px;
   }
 
   .u-section-1 .u-gallery-1 {
-    height: 1256px;
+    height: 1518px;
     grid-template-columns: auto auto;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-1 .u-gallery-inner-1 {
     grid-template-columns: repeat(2, auto);
   }
+
+  .u-section-1 .u-gallery-item-10 {
+    margin-top: -956px;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 3700px;
+    min-height: 4373px;
   }
 
   .u-section-1 .u-text-1 {
@@ -154,20 +171,24 @@
   }
 
   .u-section-1 .u-gallery-1 {
-    height: 3391px;
+    height: 4175px;
     grid-template-columns: auto;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-1 .u-gallery-inner-1 {
     grid-template-columns: repeat(1, auto);
   }
+
+  .u-section-1 .u-gallery-item-10 {
+    width: 540px;
+    height: 540px;
+    margin-top: -3091px;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 2444px;
+    min-height: 2827px;
   }
 
   .u-section-1 .u-text-1 {
@@ -186,9 +207,14 @@
   }
 
   .u-section-1 .u-gallery-1 {
-    height: 2135px;
+    height: 2629px;
     margin-top: 29px;
-    margin-right: initial;
-    margin-left: initial;
+    margin-bottom: 33px;
+  }
+
+  .u-section-1 .u-gallery-item-10 {
+    width: 340px;
+    height: 340px;
+    margin-top: -1835px;
   }
 }
